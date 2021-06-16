@@ -1,0 +1,38 @@
+html,
+body {
+    height: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: url("/images/drought.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.btn,
+.form-control {
+    /* border: 2px solid black; */
+    border-radius: 25px;
+}
+
+.form-control:focus {
+    border: 2px solid black;
+    box-shadow: none;
+}
